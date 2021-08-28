@@ -573,3 +573,43 @@ System memory in use after: 131.7 MB.
 Unloading 3 unused Assets to reduce memory usage. Loaded Objects now: 2092.
 Total: 12.776750 ms (FindLiveObjects: 0.300667 ms CreateObjectMapping: 0.034833 ms MarkObjects: 12.344042 ms  DeleteObjects: 0.096375 ms)
 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002019 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.36 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.123 seconds
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(524288) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.30 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1597 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 163.4 MB.
+System memory in use after: 163.5 MB.
+
+Unloading 7 unused Assets to reduce memory usage. Loaded Objects now: 2095.
+Total: 5.720667 ms (FindLiveObjects: 0.280334 ms CreateObjectMapping: 0.039875 ms MarkObjects: 4.791791 ms  DeleteObjects: 0.608042 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 3151.969517 seconds.
+  path: Assets/XR
+  artifactKey: Guid(3a4038460c3214caeb23603270a61b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR using Guid(3a4038460c3214caeb23603270a61b15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d0f1de9fa95881bf486876469dc42c8') in 0.053647 seconds
+  Import took 0.065860 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033802 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(defc3cd68b27b4574b203d1a263d78f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(defc3cd68b27b4574b203d1a263d78f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85049200264f367490a569ae0564a254') in 0.084733 seconds
+  Import took 0.087174 seconds .
+
