@@ -229,6 +229,7 @@ GameObject:
   - component: {fileID: 843792094}
   - component: {fileID: 843792093}
   - component: {fileID: 843792092}
+  - component: {fileID: 843792096}
   m_Layer: 0
   m_Name: AR Camera
   m_TagString: MainCamera
@@ -261,7 +262,7 @@ Camera:
     height: 1
   near clip plane: 0.1
   far clip plane: 20
-  field of view: 60
+  field of view: 26.991467
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -305,8 +306,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4966719baa26e4b0e8231a24d9bd491a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_FocusMode: 1
-  m_LightEstimationMode: 0
+  m_FocusMode: -1
+  m_LightEstimationMode: -1
   m_AutoFocus: 1
   m_LightEstimation: 0
   m_FacingDirection: 1
@@ -336,6 +337,19 @@ Transform:
   m_Father: {fileID: 1955029515}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &843792096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 843792090}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 520bb47c46cf8624fafb307b7d1b862a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Camera: {fileID: 0}
 --- !u!1 &1955029513
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,6 +360,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1955029515}
   - component: {fileID: 1955029514}
+  - component: {fileID: 1955029516}
   m_Layer: 0
   m_Name: AR Session Origin
   m_TagString: Untagged
@@ -381,6 +396,21 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1955029516
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1955029513}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4dea56a9eaadd1c439095de4f9a371cb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_SerializedLibrary: {fileID: 11400000, guid: 08ed01c64aaaa4f3caf3e058cb3ccccf, type: 2}
+  m_MaxNumberOfMovingImages: 1
+  m_TrackedImagePrefab: {fileID: 7133139112529078969, guid: 8e199ce1754d74755a7dab5308b22587, type: 3}
 --- !u!1 &2144895310
 GameObject:
   m_ObjectHideFlags: 0

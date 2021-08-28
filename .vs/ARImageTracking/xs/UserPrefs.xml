@@ -1,7 +1,8 @@
 ﻿<Properties StartupConfiguration="{CFA06615-39C0-F76D-2893-04FB09FE0BD2}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/ARImageTraking.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../화면 기록 2021-08-28 오후 7.03.38.mov">
     <Files>
-      <File FileName="Assets/ARImageTraking.cs" Line="1" Column="1" />
+      <File FileName="Assets/ARImageTraking.cs" Line="7" Column="16" />
+      <File FileName="../../화면 기록 2021-08-28 오후 7.03.38.mov" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
